@@ -180,30 +180,3 @@ open QuoteBookApp.xcodeproj
 ```
 
 Configure the project with the required Firebase credentials for your Firebase project, then build and run the application through Xcode.
-
-## What I Learned
-
-Building QuoteBook provided experience with:
-
-* Developing a multi-screen iOS application using SwiftUI
-* Structuring application code using MVVM principles
-* Managing reactive application state with `ObservableObject` and `@Published`
-* Integrating an iOS application with Firebase
-* Designing Firestore-backed data workflows
-* Implementing authentication and user-specific data
-* Separating database operations from presentation logic
-* Building reusable SwiftUI views and navigation
-* Managing asynchronous cloud operations
-* Designing persistent application features beyond the UI layer
-
-## Future Improvements
-
-Potential improvements include:
-
-* Refactoring older components into a more consistent MVVM structure
-* Improving error handling for Firebase operations
-* Adding automated unit and UI tests
-* Adding stronger loading and offline states
-* Improving Firestore query efficiency
-* Expanding quote search and filtering
-* Improving accessibility and responsive UI behavior
